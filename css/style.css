@@ -1,0 +1,88 @@
+:root {
+    --Azul: #2481A6;
+    --Verde: #9DBF21;
+    --Rosa: #D95B72;
+}
+
+@font-face {
+    font-family: "ChelseaMarket";
+    src: local("ChelseaMarket-Regular");
+    src: url("../fonts/ChelseaMarket-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ChelseaMarket;
+}
+
+body{
+    max-width: 100vw;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+.nav-link {
+    color: var(--Azul);
+    font-weight: 500;
+}
+
+.menu {
+    margin-left: 23rem;
+}
+
+.navbar-nav {
+    gap: 4rem;
+}
+
+
+.carousel-inner {
+    height: 30rem;
+}
+
+.carousel-image {
+    width: 100rem;
+}
+
+.sobre {
+    margin-top: 10rem;
+
+}
+
+.sobre-conteudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre-texto {
+    margin-left: 5rem;
+    width: 35rem;
+    font-size: 16pt;
+    text-align: justify;
+    color: var(--Azul);
+    
+}
+
+.sobre-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-imagem {
+    margin-top: -4rem;
+    width: 30rem;
+}
+
+.sobre-imagem img {
+    width: 381px;
+    height: 474px;
+}
