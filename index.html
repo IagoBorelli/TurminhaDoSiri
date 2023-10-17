@@ -36,7 +36,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="images/logo_turminha.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,140 +46,214 @@
       <div class="menu collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
+            <a class="nav-link " aria-current="page" href="#">INÍCIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SOBRE</a>
+            <a class="nav-link" href="#sobre">SOBRE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">EPISÓDIOS</a>
+            <a class="nav-link" href="#episodios">EPISÓDIOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">JOGOS</a>
+            <a class="nav-link" href="#jogos">JOGOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">MATERIAIS</a>
+            <a class="nav-link" href="#materiais">MATERIAIS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CRÉDITOS</a>
+            <a class="nav-link" href="#creditos">CRÉDITOS</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/cici1.svg" class="carousel-image d-block" alt="...">
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item">
-        <img src="images/cici1.svg" class="carousel-image d-block" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="images/cici1.svg" class="carousel-image d-block" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <div class="sobre">
-
-    <div class="sobre-conteudo">
-      <div class="sobre-texto">
-        <div class="sobre-title">
-          <h2>SOBRE</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/cici1.svg" class="carousel-image d-block" alt="...">
         </div>
-        <p>
-          E se crianças de Nossa Senhora do Socorro estrelassem uma séria animada?!
-        </p>
-        <p>
-          Cici, Marquinhos, Maria Formiga, Farolito e Vandinha toparam o desafio e vão compartilhar conosco o dia a dia
-          na escola, aprendendo com a amizade a enfrentar os desafios e questionamentos próprios da idade, como a
-          insegurança do primeiro dia de aula, ou a surpresa ao indentificar novas cores e formas.
-        </p>
+        <div class="carousel-item">
+          <img src="images/cici1.svg" class="carousel-image d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/cici1.svg" class="carousel-image d-block" alt="...">
+        </div>
       </div>
-      <div class="sobre-imagem">
-        <img src="images/VANDINHA.svg" alt="">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="sobre" id="sobre">
+      <div class="sobre-conteudo">
+        <div class="sobre-texto">
+          <div class="sobre-title">
+            <h2>SOBRE</h2>
+          </div>
+          <p>
+            E se crianças de Nossa Senhora do Socorro estrelassem uma séria animada?!
+          </p>
+          <p>
+            Cici, Marquinhos, Maria Formiga, Farolito e Vandinha toparam o desafio e vão compartilhar conosco o dia a
+            dia
+            na escola, aprendendo com a amizade a enfrentar os desafios e questionamentos próprios da idade, como a
+            insegurança do primeiro dia de aula, ou a surpresa ao indentificar novas cores e formas.
+          </p>
+        </div>
+        <div class="sobre-imagem">
+          <img src="images/VANDINHA.svg" alt="">
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="episodios">
-    <div class="episodios-conteudo">
-      <div class="episodios-imagem">
-        <img src="images/FAROLITO.svg" alt="">
-      </div>
-      <div class="episodios-videos">
-        <div class="episodios-title">
-          <h2>EPISÓDIOS</h2>
+    <div class="episodios" id="episodios">
+      <div class="episodios-conteudo">
+        <div class="episodios-imagem">
+          <img src="images/FAROLITO.svg" alt="">
         </div>
         <div class="episodios-videos">
-          <div class="videos">
-            <iframe width="560" height="280" src="https://www.youtube.com/embed/fUB4TP5w5oo?si=7kQJUCnAbEGPorW7"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+          <div class="episodios-title">
+            <h2>EPISÓDIOS</h2>
+          </div>
+          <div class="episodios-videos">
+            <div class="videos">
+              <iframe width="560" height="280" src="https://www.youtube.com/embed/fUB4TP5w5oo?si=7kQJUCnAbEGPorW7"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
-  </div>
+    <div class="jogos" id="jogos">
+      <div class="jogos-conteudo">
+        <div class="jogos-botoes">
+          <div class="jogos-title">
+            <h2>Jogos</h2>
+          </div>
+          <div class="botoes">
+            <button id="button-1">
+              <img src="images/cerebro.svg" alt="">
+              <h5>Jogo da Memória</h5>
+            </button>
+            <button id="button-2">
+              <img src="images/cerebro.svg" alt="">
+              <h5>Jogo da Memória</h5>
+            </button>
+            <button id="button-3">
+              <img src="images/cerebro.svg" alt="">
+              <h5>Jogo da Memória</h5>
+            </button>
+            <button id="button-4">
+              <img src="images/cerebro.svg" alt="">
+              <h5>Jogo da Memória</h5>
+            </button>
+            <button id="button-5">
+              <img src="images/cerebro.svg" alt="">
+              <h5>Jogo da Memória</h5>
+            </button>
 
-  <div class="jogos">
+          </div>
 
-    <div class="jogos-conteudo">
-      <div class="jogos-botoes">
-        <div class="jogos-title">
-          <h2>Jogos</h2>
         </div>
-        <div class="botoes">
-          <button id="button-1">
-            <img src="images/cerebro.svg" alt="">
-            <h5>Jogo da Memória</h5>
-          </button>
-          <button id="button-2">
-            <img src="images/cerebro.svg" alt="">
-            <h5>Jogo da Memória</h5>
-          </button>
-          <button id="button-3">
-            <img src="images/cerebro.svg" alt="">
-            <h5>Jogo da Memória</h5>
-          </button>
-          <button id="button-4">
-            <img src="images/cerebro.svg" alt="">
-            <h5>Jogo da Memória</h5>
-          </button>
-          <button id="button-5">
-            <img src="images/cerebro.svg" alt="">
-            <h5>Jogo da Memória</h5>
-          </button>
-          
+        <div class="jogos-imagem">
+          <img src="images/MARQUINHOS.svg" alt="">
         </div>
-        
-      </div>
-      <div class="jogos-imagem">
-        <img src="images/MARQUINHOS.svg" alt="">
       </div>
     </div>
-  </div>
+    <div class="materiais" id="materiais">
+      <div class="materiais-conteudo">
+        <div class="materiais-imagem">
+          <img src="images/MARIA FORMIGA.svg" alt="">
+        </div>
+        <div class="materiais-documentos">
+          <div class="materiais-title">
+            <h2>Materiais</h2>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="creditos" id="creditos">
+      <div class="creditos-conteudo">
+        <div class="creditos-texto">
+          <div class="creditos-title">
+            <h2>SOBRE</h2>
+          </div>
+          <p>
+            <pre>
+              DIREÇÃO DA SÉRIE
+              XXXXXXX
+              XXXXXXXX
+              XXXXXX
+              XXXXXX
+              XXXXXXXXXXXX
+              XXXXXXXXXX
+              XXXXXXXXXX
+              XXXXXXXXX
+              XXXXXXX XXXXX
+              XXXXXXXX
+              XXXXXXXXXXX
+              XXXXXXX XXX
+              XXXXXXX XXXXXXXX
+            </pre>
+          </p>
+        </div>
+        <div class="creditos-texto">
+          <p>
+            <pre>
+              DIREÇÃO DA SÉRIE
+              XXXXXXX
+              XXXXXXXX
+              XXXXXX
+              XXXXXX
+              XXXXXXXXXXXX
+              XXXXXXXXXX
+              XXXXXXXXXX
+              XXXXXXXXX
+              XXXXXXX XXXXX
+              XXXXXXXX
+              XXXXXXXXXXX
+              XXXXXXX XXX
+              XXXXXXX XXXXXXXX
+            </pre>
+          </p>
+          <div class="logo-semed">
+            <img src="images/logo semed.svg" alt="">
+          </div>
+        </div>
+        <div class="creditos-imagem">
+          <img src="images/CICI.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <div>
+        <br>
+        <div class="rodape">
+          <p>RUA PADRE MANOEL GOMES S/N, CENTRO NOSSSA SENHORA DO SOCORRO, SE
+            <br>DESENVOLVIDO POR SEMED © 2023</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
