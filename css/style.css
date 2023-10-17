@@ -176,8 +176,14 @@ iframe {
     width: 40rem;  
 }
 
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .botoes button {
     width: 200px;
+    height: 170px;
     margin-left: 0.5rem;
     margin-bottom: 0.5rem;
     padding: 0.7em;
@@ -268,8 +274,8 @@ iframe {
 
 .creditos {
     margin-top: 10rem;
-    margin-bottom: 5rem;
-    scroll-margin-top: 14rem;
+    margin-bottom: 6rem;
+    scroll-margin-top: 10rem;
 
 }
 
@@ -287,13 +293,23 @@ iframe {
     
 }
 
+.creditos-texto2 {
+    margin-left: -5rem;
+    margin-right: 16rem;
+    width: 20rem;
+    font-size: 16pt;
+    text-align: justify;
+    color: var(--Azul);
+    
+}
+
 .creditos-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
     margin-top: -5.5rem;
     width: 55rem;
+    color: var(--Azul);
 }
 
 .creditos-imagem {
