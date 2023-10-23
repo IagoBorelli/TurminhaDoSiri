@@ -1,5 +1,6 @@
 :root {
     --Azul: #2481A6;
+    --Azul-Claro: #A7F2F2;
     --Verde: #9DBF21;
     --Verde2: #09A603;
     --Rosa: #D95B72;
@@ -75,7 +76,7 @@ main {
 }
 
 .carousel-image {
-    width: 100rem;
+   
 }
 
 .sobre {
@@ -249,7 +250,7 @@ iframe {
 
 .materiais-imagem {
     margin-top: 5rem;
-    width: 30rem;
+    width: 10rem;
 }
 
 .materiais-imagem img {
@@ -262,12 +263,38 @@ iframe {
     color: white;
     display: flex;
     justify-content: center;
-    margin-right: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+
 }
 
 .materiais-documentos {
     margin-top: 7rem;
     width: 50rem;
+}
+
+.materiais-buttons {
+    margin-left: 10rem;
+}
+
+#materiais-button-1 {
+    background-color: var(--Azul);
+}
+
+#materiais-button-2 {
+    background-color: var(--Azul);
+}
+
+#materiais-button-3 {
+    background-color: var(--Azul);
+}
+
+#materiais-button-4 {
+    background-color: var(--Azul);
+    margin-left: 7rem;
+}
+#materiais-button-5 {
+    background-color: var(--Azul);
 }
 
 
@@ -323,9 +350,10 @@ iframe {
 }
 
 .logo-semed {
-    width: 10rem;
-    margin-left: -10rem;
-    margin-bottom: -10rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
     margin-top: -5rem;
 }
 
@@ -335,17 +363,23 @@ iframe {
 }
 
 footer {
+    margin-top: -5rem;
     background-color: var(--Rosa);
-    height: 7rem;
+    height: 13.5rem;
 }
 
 .rodape {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
 }
 
+
+.rodape p {
+    margin-top: -6rem;
+}
 
 
