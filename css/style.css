@@ -75,9 +75,6 @@ main {
     height: 30rem;
 }
 
-.carousel-image {
-   
-}
 
 .sobre {
     margin-top: 10rem;
@@ -191,6 +188,11 @@ iframe {
     border: none;
     border-radius: 10px;
     color: white;
+    transform: scale(1);
+}
+
+.botoes button:hover {
+    transform: scale(1.05);
 }
 
 
