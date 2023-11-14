@@ -67,11 +67,11 @@ main {
     gap: 4rem;
 }
 
-.carousel{
+.carrossel{
     margin-top: 7rem;
 }
 
-.carousel-inner {
+.carrosel .carousel-inner {
     height: 30rem;
 }
 
@@ -138,7 +138,7 @@ main {
     color: white;
     display: flex;
     justify-content: center;
-    margin-right: 20rem;
+    margin-right: 3rem;
 }
 
 .episodios-videos {
@@ -147,15 +147,24 @@ main {
 }
 
 .videos {
-    margin-top: -3rem;
-    display: flex;
+    margin-top: -4rem;
 }
 
-iframe {
-    margin-right: 3rem;
+.carrossel-control {
+    background-color: rgba(128, 128, 128, 0.514);
+    opacity: 1;
+    width: 3rem;
+    margin-top: 10rem;
+    height: 80px;
 }
 
+.anterior {
+    margin-left: -3rem;
+}
 
+.proximo {
+    margin-right: -0.5rem;
+}
 
 .jogos {
     margin-top: 10rem;

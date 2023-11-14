@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Turminha do Siri - Quiz</title>
+</head>
+
+<body>
+    <div class="login_form">
+        <div class="login_header">
+            <img src="images/logo_turminha.png" alt="Logo da Turminha do Siri">
+            <h1>Quiz</h1>
+        </div>
+        <button  class="login_button" id="button1" onclick="trocarBotoes()">Jogar</button>
+        <a href="pages/portugues.html">
+            <button class="materias_button portugues" id="button2">Português</button>
+        </a>
+        <a href="pages/matematica.html">
+            <button class="materias_button matematica" id="button3">Matemática</button>
+        </a>
+    </div>
+</body>
+<script>
+    function trocarBotoes() {
+        document.getElementById("button1").style.display = "none";
+        document.getElementById("button2").style.display = "block";
+        document.getElementById("button3").style.display = "block";
+    }
+</script>
+
+</html>

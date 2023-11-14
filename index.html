@@ -21,6 +21,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <!--  -->
 
   <!-- Font Awesome CDN -->
@@ -41,10 +42,6 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="images/logo_turminha.svg" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="menu collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -70,7 +67,7 @@
     </div>
   </nav>
   <main>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div id="carouselExampleIndicators" class="carrossel carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -78,7 +75,7 @@
           aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
           aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
@@ -138,10 +135,30 @@
           </div>
           <div class="episodios-videos">
             <div class="videos">
-              <iframe width="560" height="280" src="https://www.youtube.com/embed/fUB4TP5w5oo?si=7kQJUCnAbEGPorW7"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <iframe id="iframe1" width="760" height="380"
+                      src="https://www.youtube.com/embed/fUB4TP5w5oo?si=7kQJUCnAbEGPorW7" title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen ></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="760" height="380" src="https://www.youtube.com/embed/vCVEoW2LG0k?si=vLF-f-NCDUbsjdXJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <button class="carrossel-control anterior carousel-control-prev" type="button"
+                  data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carrossel-control proximo carousel-control-next" type="button"
+                  data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -160,22 +177,18 @@
                 <h5>Jogo da Memória</h5>
               </button>
             </a>
-            <button id="button-2">
-              <img src="images/quiz.svg" alt="">
-              <h5>Quiz</h5>
-            </button>
-            <button id="button-3" disabled>
-              <img src="" alt="">
-              <h5></h5>
-            </button>
-            <button id="button-4" disabled>
-              <img src="" alt="">
-              <h5></h5>
-            </button>
-            <button id="button-5" disabled>
-              <img src="" alt="">
-              <h5></h5>
-            </button>
+            <a href="quiz/index.html" target="_blank">
+              <button id="button-2">
+                <img src="images/quiz.svg" alt="">
+                <h5>Quiz</h5>
+              </button>
+            </a>
+            <a href="jogoDaForca/index.html" target="_blank">
+              <button id="button-3">
+                <img src="images/forca.svg" alt="">
+                <h5>Jogo da forca</h5>
+              </button>
+            </a>
 
           </div>
 
@@ -195,13 +208,13 @@
             <h2>Materiais Didáticos</h2>
           </div>
           <div class="materiais-buttons botoes">
-            <a href="" download>
+            <a href="#" download>
               <button id="materiais-button-1">
                 <img src="images/pintura.svg" alt="">
                 <h5>Materiais para colorir</h5>
               </button>
             </a>
-            <a href="" download>
+            <a href="#" download>
               <button id="materiais-button-2">
                 <img src="images/caça palavras.svg" alt="">
                 <h5>Caça palavras</h5>
@@ -213,17 +226,6 @@
                 <h5></h5>
               </button>
             </a>
-            <a href="" download>
-              <button id="materiais-button-4">
-                <img src="" alt="">
-                <h5></h5>
-              </button>
-            </a>
-            <a href="" download>
-              <button id="materiais-button-5">
-                <img src="" alt="">
-                <h5></h5>
-              </button>
             </a>
           </div>
 
@@ -237,7 +239,7 @@
       <div class="creditos-conteudo">
         <div class="creditos-texto">
           <p>
-            <pre>
+          <pre>
               DIREÇÃO DA SÉRIE
               XXXXXXX
               XXXXXXXX
@@ -257,7 +259,7 @@
         </div>
         <div class="creditos-texto2">
           <p>
-            <pre>
+          <pre>
               DIREÇÃO DA SÉRIE
               XXXXXXX
               XXXXXXXX
@@ -274,7 +276,7 @@
               XXXXXXX XXXXXXXX
             </pre>
           </p>
-        
+
         </div>
         <div class="creditos-imagem">
           <img src="images/CICI.svg" alt="">
@@ -290,12 +292,18 @@
           <div class="logo-semed">
             <img src="images/logo semed.svg" alt="">
           </div>
-          <p>RUA PADRE MANOEL GOMES S/N, CENTRO NOSSSA SENHORA DO SOCORRO, SE
-            <br>DESENVOLVIDO POR Semed_Nuted © 2023</p>
+          <div class="rodape-texto">
+            <p>RUA PADRE MANOEL GOMES S/N, CENTRO NOSSSA SENHORA DO SOCORRO, SE
+              <br>DESENVOLVIDO POR Semed_Nuted © 2023
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </footer>
+
+
+  
 
 </body>
 

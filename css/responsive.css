@@ -1,0 +1,847 @@
+:root {
+    --Azul: #2481A6;
+    --Azul-Claro: #A7F2F2;
+    --Verde: #9DBF21;
+    --Verde2: #09A603;
+    --Rosa: #D95B72;
+    --Vermelho: #F23D3D;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 375px) {
+
+    main {
+        overflow: hidden;
+    }
+
+    .navbar-brand {
+       margin-left: 7rem;
+    }
+
+    .carousel img {
+        width: 24rem;
+    }
+
+    .sobre {
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        scroll-margin-top: 14rem;
+
+    }
+
+    .sobre-texto {
+        margin-left: 1rem;
+        width: 15rem;
+        font-size: 6pt;
+    }
+
+    .sobre-imagem {
+        margin-top: -9rem;
+        width: 10rem;
+        margin-left: 1rem;
+    }
+
+    .sobre-imagem img {
+        width: 101px;
+        height: 474px;
+    }
+
+    .episodios-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .episodios-imagem {
+        margin-top: -9rem;
+        margin-left: 8rem;
+        margin-bottom: -5rem;
+    }
+
+    .episodios-imagem img {
+        width: 101px;
+        height: 474px;
+    }
+
+    .episodios-title {
+        margin-top: -3rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .episodios-videos {
+        margin-top: 7rem;
+        width: 20rem;
+        margin-bottom: 0rem;
+        margin-left: 0.5rem;
+    }
+
+    .videos {
+        margin-top: -4rem;
+    }
+
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+
+    .carrossel-control {
+        background-color: rgba(128, 128, 128, 0.514);
+        opacity: 1;
+        width: 3rem;
+        margin-top: 12.5rem;
+        height: 80px;
+    }
+
+    .anterior {
+        margin-left: 0;
+    }
+
+    .proximo {
+        margin-right: 0;
+    }
+
+
+    .jogos {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        scroll-margin-top: 12rem;
+
+    }
+
+    .jogos-conteudo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .jogos-botoes {
+        margin-left: 1rem;
+        width: 20rem;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .botoes button {
+        width: 150px;
+        height: 100px;
+        padding: 0.7em;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transform: scale(1);
+    }
+
+    .botoes button:hover {
+        transform: scale(1.05);
+    }
+
+    #button-4 {
+        background-color: var(--Vermelho);
+        margin-left: 0.5rem;
+    }
+
+
+    .botoes button img {
+        width: 30px;
+    }
+
+    .jogos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--Azul);
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+
+    .jogos-imagem {
+        margin-top: 1rem;
+        width: 10rem;
+    }
+
+    .jogos-imagem img {
+        width: 101px;
+        height: 474px;
+    }
+
+
+    .materiais-imagem {
+        margin-top: 5rem;
+        width: 10rem;
+    }
+
+    .materiais-imagem img {
+        width: 151px;
+        height: 474px;
+    }
+
+    .materiais-title {
+        margin-top: -3rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-left: -8rem;
+
+    }
+
+    .materiais-documentos {
+        margin-top: 7rem;
+        width: 10rem;
+    }
+
+    .materiais-buttons {
+        margin-left: 0rem;
+    }
+
+    #materiais-button-4 {
+        background-color: var(--Azul);
+        margin-left: 0.5rem;
+    }
+
+    .creditos {
+        margin-top: 10rem;
+        margin-bottom: 6rem;
+        scroll-margin-top: 10rem;
+    
+    }
+    
+    .creditos-texto {
+        margin-left: -2rem;
+        width: 10rem;
+        font-size: 8pt;
+        text-align: justify;
+        color: var(--Azul);
+        
+    }
+    
+    .creditos-texto2 {
+        margin-left: -5rem;
+        margin-right: 0rem;
+        width: 20rem;
+        font-size: 8pt;
+        text-align: justify;
+        color: var(--Azul);
+        
+    }
+    
+    .creditos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5.5rem;
+        width: 20rem;
+        color: var(--Azul);
+    }
+    
+    .creditos-imagem {
+        margin-top: -8rem;
+        width: 10rem;
+        margin-right: 2rem;
+    }
+    
+    .creditos-imagem img {
+        width: 101px;
+        height: 474px;
+    }
+    
+    .logo-semed {
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: -5rem;
+    }
+    
+    .logo-semed img {
+        width: 15rem;
+    
+    }
+    
+    footer {
+        margin-top: -10rem;
+        background-color: var(--Rosa);
+        height: 13.5rem;
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .rodape p {
+        margin-top: -3rem;
+        font-size: 10pt;
+    }
+
+}
+
+
+
+@media screen and (min-width: 390px) and (max-width: 393px) {
+
+    main {
+        overflow: hidden;
+    }
+
+    .navbar-brand {
+       margin-left: 8rem;
+    }
+
+    .carousel img {
+        width: 25rem;
+    }
+
+    .sobre {
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        scroll-margin-top: 14rem;
+
+    }
+
+    .sobre-texto {
+        margin-left: 1rem;
+        width: 15rem;
+        font-size: 6pt;
+    }
+
+    .sobre-imagem {
+        margin-top: -9rem;
+        width: 10rem;
+        margin-left: 1rem;
+    }
+
+    .sobre-imagem img {
+        width: 101px;
+        height: 474px;
+    }
+
+    .episodios-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .episodios-imagem {
+        margin-top: -7rem;
+        margin-left: 9rem;
+        margin-bottom: -5rem;
+    }
+
+    .episodios-imagem img {
+        width: 131px;
+        height: 474px;
+    }
+
+    .episodios-title {
+        margin-top: -3rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-right: -2rem;
+    }
+
+    .episodios-videos {
+        margin-top: 7rem;
+        width: 24rem;
+        margin-bottom: 0rem;
+        margin-left: 0.4rem;
+    }
+
+    .videos {
+        margin-top: -4rem;
+    }
+
+    iframe {
+        width: 370px;
+        height: 200px;
+    }
+
+    .carrossel-control {
+        background-color: rgba(128, 128, 128, 0.514);
+        opacity: 1;
+        width: 3rem;
+        margin-top: 12.5rem;
+        height: 80px;
+    }
+
+    .anterior {
+        margin-left: 0;
+    }
+
+    .proximo {
+        margin-right: 1rem;
+    }
+
+
+    .jogos {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        scroll-margin-top: 12rem;
+
+    }
+
+    .jogos-conteudo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .jogos-botoes {
+        margin-left: 1rem;
+        width: 20rem;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .botoes button {
+        width: 150px;
+        height: 100px;
+        padding: 0.7em;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transform: scale(1);
+    }
+
+    .botoes button:hover {
+        transform: scale(1.05);
+    }
+
+    #button-4 {
+        background-color: var(--Vermelho);
+        margin-left: 0.5rem;
+    }
+
+
+    .botoes button img {
+        width: 30px;
+    }
+
+    .jogos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--Azul);
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+
+    .jogos-imagem {
+        margin-top: 1rem;
+        width: 10rem;
+    }
+
+    .jogos-imagem img {
+        width: 151px;
+        height: 474px;
+    }
+
+
+    .materiais-imagem {
+        margin-top: 5rem;
+        width: 10rem;
+    }
+
+    .materiais-imagem img {
+        width: 201px;
+        height: 474px;
+    }
+
+    .materiais-title {
+        margin-top: -3rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-left: -8rem;
+
+    }
+
+    .materiais-documentos {
+        margin-top: 7rem;
+        width: 10rem;
+    }
+
+    .materiais-buttons {
+        margin-left: 0rem;
+    }
+
+    #materiais-button-4 {
+        background-color: var(--Azul);
+        margin-left: 0.5rem;
+    }
+
+    .creditos {
+        margin-top: 10rem;
+        margin-bottom: 6rem;
+        scroll-margin-top: 10rem;
+    
+    }
+    
+    .creditos-texto {
+        margin-left: -2rem;
+        width: 10rem;
+        font-size: 10pt;
+        text-align: justify;
+        color: var(--Azul);
+        
+    }
+    
+    .creditos-texto2 {
+        margin-left: -5rem;
+        margin-right: 0rem;
+        width: 20rem;
+        font-size: 10pt;
+        text-align: justify;
+        color: var(--Azul);
+        
+    }
+    
+    .creditos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5.5rem;
+        width: 20rem;
+        color: var(--Azul);
+    }
+    
+    .creditos-imagem {
+        margin-top: -5rem;
+        width: 10rem;
+        margin-right: 2rem;
+    }
+    
+    .creditos-imagem img {
+        width: 121px;
+        height: 474px;
+    }
+    
+    .logo-semed {
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: -5rem;
+    }
+    
+    .logo-semed img {
+        width: 15rem;
+    
+    }
+    
+    footer {
+        margin-top: -10rem;
+        background-color: var(--Rosa);
+        height: 13.5rem;
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .rodape p {
+        margin-top: -3rem;
+        font-size: 10pt;
+    }
+
+}
+
+
+@media screen and (min-width: 412px) and (max-width: 430px) {
+
+    main {
+        overflow: hidden;
+    }
+
+    .navbar-brand {
+       margin-left: 9rem;
+    }
+
+    .carousel img {
+        width: 26rem;
+    }
+
+    .sobre {
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        scroll-margin-top: 14rem;
+
+    }
+
+    .sobre-texto {
+        margin-left: 1rem;
+        width: 15rem;
+        font-size: 6pt;
+    }
+
+    .sobre-imagem {
+        margin-top: -9rem;
+        width: 10rem;
+        margin-left: 2rem;
+    }
+
+    .sobre-imagem img {
+        width: 101px;
+        height: 474px;
+    }
+
+    .episodios-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .episodios-imagem {
+        margin-top: -7rem;
+        margin-left: 9rem;
+        margin-bottom: -5rem;
+    }
+
+    .episodios-imagem img {
+        width: 131px;
+        height: 474px;
+    }
+
+    .episodios-title {
+        margin-top: -3rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-right: -2rem;
+    }
+
+    .episodios-videos {
+        margin-top: 7rem;
+        width: 24rem;
+        margin-bottom: 0rem;
+        margin-left: 0.4rem;
+    }
+
+    .videos {
+        margin-top: -4rem;
+    }
+
+    iframe {
+        width: 390px;
+        height: 200px;
+    }
+
+    .carrossel-control {
+        background-color: rgba(128, 128, 128, 0.514);
+        opacity: 1;
+        width: 3rem;
+        margin-top: 12.5rem;
+        height: 80px;
+    }
+
+    .anterior {
+        margin-left: 0;
+    }
+
+    .proximo {
+        margin-right: 0.1rem;
+    }
+
+
+    .jogos {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        scroll-margin-top: 12rem;
+
+    }
+
+    .jogos-conteudo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .jogos-botoes {
+        margin-left: 1rem;
+        width: 20rem;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .botoes button {
+        width: 150px;
+        height: 100px;
+        padding: 0.7em;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        transform: scale(1);
+    }
+
+    .botoes button:hover {
+        transform: scale(1.05);
+    }
+
+    #button-4 {
+        background-color: var(--Vermelho);
+        margin-left: 0.5rem;
+    }
+
+
+    .botoes button img {
+        width: 30px;
+    }
+
+    .jogos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--Azul);
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+    }
+
+    .jogos-imagem {
+        margin-top: 1rem;
+        width: 10rem;
+        margin-right: 1rem;
+    }
+
+    .jogos-imagem img {
+        width: 151px;
+        height: 474px;
+    }
+
+
+    .materiais-imagem {
+        margin-top: 5rem;
+        width: 10rem;
+    }
+
+    .materiais-imagem img {
+        width: 201px;
+        height: 474px;
+    }
+
+    .materiais-title {
+        margin-top: -3rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-left: -8rem;
+
+    }
+
+    .materiais-documentos {
+        margin-top: 7rem;
+        width: 10rem;
+    }
+
+    .materiais-buttons {
+        margin-left: 0rem;
+    }
+
+    #materiais-button-4 {
+        background-color: var(--Azul);
+        margin-left: 0.5rem;
+    }
+
+    .creditos {
+        margin-top: 10rem;
+        margin-bottom: 6rem;
+        scroll-margin-top: 10rem;
+    
+    }
+    
+    .creditos-texto {
+        margin-left: -2rem;
+        width: 10rem;
+        font-size: 10pt;
+        text-align: justify;
+        color: var(--Azul);
+        
+    }
+    
+    .creditos-texto2 {
+        margin-left: -5rem;
+        margin-right: 0rem;
+        width: 20rem;
+        font-size: 10pt;
+        text-align: justify;
+        color: var(--Azul);
+        
+    }
+    
+    .creditos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5.5rem;
+        width: 20rem;
+        color: var(--Azul);
+    }
+    
+    .creditos-imagem {
+        margin-top: -5rem;
+        width: 10rem;
+        margin-right: 2rem;
+    }
+    
+    .creditos-imagem img {
+        width: 121px;
+        height: 474px;
+    }
+    
+    .logo-semed {
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: -5rem;
+    }
+    
+    .logo-semed img {
+        width: 15rem;
+    
+    }
+    
+    footer {
+        margin-top: -10rem;
+        background-color: var(--Rosa);
+        height: 13.5rem;
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .rodape p {
+        margin-top: -3rem;
+        font-size: 10pt;
+    }
+
+}
