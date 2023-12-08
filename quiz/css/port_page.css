@@ -9,7 +9,8 @@ button {
 }
 
 body {
-  background-image: url(../images/background.svg);
+  background-image: url(../images/background_port.png);
+  background-size: cover;
   color: #fff;
   height: 100vh;
   display: flex;
@@ -82,8 +83,8 @@ body {
 }
 
 .button {
-  background-color: #4863f7;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 16px;
   font-weight: bold;
   border: 0;
@@ -102,6 +103,10 @@ body {
 .final-message {
   font-size: 20px;
   text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 .final-message span {
@@ -115,9 +120,40 @@ body {
 }
 
 .correct {
-  background-color: #049b48;
+  background-color: #1cdd3c;
 }
 
 .incorrect {
-  background-color: #a10101;
+  background-color: #e72828;
+}
+
+@media screen and (min-width: 360px) and (max-width: 393px) {
+  .cartao-tras {
+    width: 20rem;
+  }
+  .cartao-frente{
+    width: 20rem;
+    
+  }
+
+  .question img {
+    width: 20rem;
+  }
+
+}
+
+@media screen and (min-width: 412px) and (max-width: 430px) {
+
+  .cartao-tras {
+    width: 22rem;
+  }
+  .cartao-frente{
+    width: 22rem;
+    
+  }
+
+  .question img {
+    width: 22rem;
+  }
+
 }

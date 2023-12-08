@@ -80,7 +80,7 @@ function comparalistas(letra){
         carregaImagemForca();
 
         if(tentativas == 0){
-            abreModal("OPS!", "Não foi dessa vez ... A palavra secreta era <br>" + palavraSecretaSorteada);
+            abreModal("OPS!", "Não foi dessa vez 😥😥 A palavra secreta era <br>" + palavraSecretaSorteada);
             piscarBotaoJogarNovamente(true);
         }
     }
@@ -102,7 +102,7 @@ function comparalistas(letra){
 
     if(vitoria == true)
     {
-        abreModal("PARABÉNS!", "Você venceu...");
+        abreModal("PARABÉNS!", "Você venceu 🤗🤗");
         tentativas = 0;
         piscarBotaoJogarNovamente(true);
     }
@@ -180,7 +180,7 @@ const modal = document.getElementById("modal-alerta");
 function carregaListaAutomatica(){
     palavras = [
         palavra001 = {
-            nome: "MARACUJA",
+            nome: "ACEROLA",
             categoria:"FRUTAS"
         },
         palavra002 = {
@@ -372,7 +372,7 @@ function carregaListaAutomatica(){
             categoria:"OBJETOS"
         },
         palavra049 = {
-            nome: "PRATILHEIRA",
+            nome: "PRATELEIRA",
             categoria:"OBJETOS"
         },
         palavra050 = {

@@ -79,16 +79,16 @@ function finishGame() {
 
   switch (true) {
     case (performance >= 90):
-      message = "Excelente :)"
+      message = "Excelente! Continue estudando  🤗🤗"
       break
     case (performance >= 70):
-      message = "Muito bom :)"
+      message = "Muito bom  🤗🤗"
       break
     case (performance >= 50):
-      message = "Bom"
+      message = "Bom 😄"
       break
     default:
-      message = "Pode melhorar :("
+      message = "Pode melhorar "
   }
 
   $questionsContainer.innerHTML = 
@@ -109,7 +109,7 @@ function finishGame() {
 
 const questions = [
   {
-    question: '<img src="../images/questao1.png">',
+    question: '<img src="../images/port_quest1.png">',
     answers: [
       { text: "Parede", correct: false },
       { text: "Rede", correct: false },
@@ -118,55 +118,84 @@ const questions = [
     ]
   },
   {
-    question: "Onde é o lugar correto para inserir JavaScript?",
+    question: '<img src="../images/port_quest2.png">',
     answers: [
-      { text: "Tanto no <head> quanto no <body> está correto", correct: true },
-      { text: "No <body>", correct: false },
-      { text: "No <head>", correct: false },
-      { text: "Em outro lugar", correct: false }
+      { text: "Anúncio", correct: false },
+      { text: "Conto", correct: false },
+      { text: "Notícia", correct: false },
+      { text: "Piada", correct: true }
     ]
   },
   {
-    question: 'Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"',
+    question: '<img src="../images/port_quest3.png">',
     answers: [
-      { text: '<script src="xxx.js">', correct: true },
-      { text: '<script href="xxx.js">', correct: false },
-      { text: '<script name="xxx.js">', correct: false },
-      { text: "Nenhuma das alternativas", correct: false }
+      { text: "Adivinha", correct: true },
+      { text: "Anúncio", correct: false },
+      { text: "Aviso", correct: false },
+      { text: "Bilhete", correct: false }
     ]
   },
   {
-    question: 'O arquivo JavaScript externo deve conter a tag <script>',
+    question: '<img src="../images/port_quest4.png">',
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Ensinar", correct: false },
+      { text: "Narrar", correct: false },
+      { text: "Comunicar", correct: true },
+      { text: "Descrever", correct: false }
     ]
   },
   {
-    question: 'Como escrever "Hello World" numa caixa de alerta?',
+    question: '<img src="../images/port_quest5.png">',
     answers: [
-      { text: 'msg("Hello World");', correct: false },
-      { text: 'alert("Hello World");', correct: true },
-      { text: 'msgBox("Hello World");', correct: false },
-      { text: 'alertBox("Hello World");', correct: false }
+      { text: "Estudar", correct: false },
+      { text: "Mostrar", correct: true },
+      { text: "Juntar", correct: false },
+      { text: "Organizar", correct: false }
     ]
   },
   {
-    question: 'Como podemos criar uma função no JavaScript?',
+    question: '<img src="../images/port_quest6.png">',
     answers: [
-      { text: 'function:myFunction()', correct: false },
-      { text: 'function myFunction()', correct: true },
-      { text: 'function = myFunction()', correct: false },
-      { text: 'Nenhum desses códigos criaria uma função', correct: false }
+      { text: 'O homem comprar o jornal', correct: false },
+      { text: 'O homem ter caído na pegadinha do menino', correct: true },
+      { text: 'O menino sair gritando pela rua', correct: false },
+      { text: "O menino ter uma profissão desde criança", correct: false }
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: '<img src="../images/port_quest7.png">',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: "Contar a história da invenção do liquidificador", correct: false },
+      { text: "Mostrar os benefícios das frutas na alimentação", correct: false },
+      { text: "Instruir o leitor para a realização de uma receita", correct: true },
+      { text: "Apresentar as diferenças entre frutas e legumes", correct: false },
+    ]
+  },
+  {
+    question: '<img src="../images/port_quest8.png">',
+    answers: [
+      { text: 'Pensou ter visto um pedaço maior na água. ', correct: true },
+      { text: 'Viu sua própria imagem refletida na água.', correct: false },
+      { text: 'passou ao lado do rio.', correct: false },
+      { text: 'Viu sua imagem indo embora.', correct: false }
+    ]
+  },
+  {
+    question: '<img src="../images/port_quest9.png">',
+    answers: [
+      { text: 'tempo', correct: false },
+      { text: 'lugar.', correct: false },
+      { text: 'comparação.', correct: false },
+      { text: 'possibilidade.', correct: true }
+    ]
+  },
+  {
+    question: '<img src="../images/port_quest10.png">',
+    answers: [
+      { text: 'os vários brinquedos que uma criança ganhou no Dia das Crianças.', correct: false },
+      { text: 'crianças brincando sozinhas, esperando seus brinquedos novos.', correct: false },
+      { text: 'os brinquedos exclusivos que apenas uma criança irá ganhar.', correct: false },
+      { text: 'uma família reunida, que seria melhor que brinquedos novos.', correct: true },
     ]
   },
 ]

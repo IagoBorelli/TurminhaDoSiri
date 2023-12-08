@@ -64,7 +64,7 @@ main {
 
 
 .navbar-nav {
-    gap: 4rem;
+    gap: 3.5rem;
 }
 
 .carrossel{
@@ -325,17 +325,20 @@ main {
 .creditos-texto {
     margin-left: 5rem;
     width: 20rem;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: justify;
-    color: var(--Azul);
-    
+    color: var(--Azul);  
+}
+
+.titulo_principal {
+    font-size: 16pt;
 }
 
 .creditos-texto2 {
     margin-left: -5rem;
-    margin-right: 16rem;
-    width: 20rem;
-    font-size: 16pt;
+    margin-right: 7rem;
+    width: 30rem;
+    font-size: 14pt;
     text-align: justify;
     color: var(--Azul);
     

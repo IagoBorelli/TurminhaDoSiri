@@ -221,8 +221,9 @@
     }
     
     .creditos-texto2 {
-        margin-left: -5rem;
+        margin-left: -2rem;
         margin-right: 0rem;
+        margin-bottom: 10rem;
         width: 20rem;
         font-size: 8pt;
         text-align: justify;
@@ -240,9 +241,7 @@
     }
     
     .creditos-imagem {
-        margin-top: -8rem;
-        width: 10rem;
-        margin-right: 2rem;
+        display: none;
     }
     
     .creditos-imagem img {
@@ -492,22 +491,22 @@
     }
     
     .creditos-texto {
-        margin-left: -2rem;
+        margin-left: -1rem;
         width: 10rem;
-        font-size: 10pt;
+        font-size: 8pt;
         text-align: justify;
         color: var(--Azul);
         
     }
     
     .creditos-texto2 {
-        margin-left: -5rem;
+        margin-left: -1rem;
         margin-right: 0rem;
         width: 20rem;
-        font-size: 10pt;
+        font-size: 8pt;
         text-align: justify;
         color: var(--Azul);
-        
+        margin-bottom: 10rem;
     }
     
     .creditos-title {
@@ -520,9 +519,7 @@
     }
     
     .creditos-imagem {
-        margin-top: -5rem;
-        width: 10rem;
-        margin-right: 2rem;
+       display: none;
     }
     
     .creditos-imagem img {
@@ -772,21 +769,22 @@
     }
     
     .creditos-texto {
-        margin-left: -2rem;
+        margin-left: -1rem;
         width: 10rem;
-        font-size: 10pt;
+        font-size: 8pt;
         text-align: justify;
         color: var(--Azul);
         
     }
     
     .creditos-texto2 {
-        margin-left: -5rem;
+        margin-left: -2rem;
         margin-right: 0rem;
         width: 20rem;
-        font-size: 10pt;
+        font-size: 8pt;
         text-align: justify;
         color: var(--Azul);
+        margin-bottom: 10rem;
         
     }
     
@@ -800,9 +798,7 @@
     }
     
     .creditos-imagem {
-        margin-top: -5rem;
-        width: 10rem;
-        margin-right: 2rem;
+       display: none;
     }
     
     .creditos-imagem img {

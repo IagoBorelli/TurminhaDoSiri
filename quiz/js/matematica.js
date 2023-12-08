@@ -79,16 +79,16 @@ function finishGame() {
 
   switch (true) {
     case (performance >= 90):
-      message = "Excelente :)"
+      message = "Parabéns! Você alcançou um resultado excelente! Continue avançando."
       break
     case (performance >= 70):
-      message = "Muito bom :)"
+      message = "Parabéns! Você alcançou um resultado excelente! Continue avançando."
       break
     case (performance >= 50):
-      message = "Bom"
+      message = "Você se saiu muito bem! Continue estudando para avançar ainda mais!"
       break
     default:
-      message = "Pode melhorar :("
+      message = "Continue estudando. Você tem potencial  para ir muito além!"
   }
 
   $questionsContainer.innerHTML = 
@@ -109,64 +109,95 @@ function finishGame() {
 
 const questions = [
   {
-    question: '<img src="../images/questao1.png">',
+    question: '<img src="../images/mat_quest1.png">',
     answers: [
-      { text: "Parede", correct: false },
-      { text: "Rede", correct: false },
-      { text: "Casa", correct: true },
-      { text: "Rua dos bobos", correct: false }
+      { text: "4 meses", correct: false },
+      { text: "8 meses", correct: false },
+      { text: "24 meses", correct: false },
+      { text: "28 meses", correct: true }
     ]
   },
   {
-    question: "Onde é o lugar correto para inserir JavaScript?",
+    question: '<img src="../images/mat_quest2.png">',
     answers: [
-      { text: "Tanto no <head> quanto no <body> está correto", correct: true },
-      { text: "No <body>", correct: false },
-      { text: "No <head>", correct: false },
-      { text: "Em outro lugar", correct: false }
+      { text: "R$ 77,00", correct: false },
+      { text: "R$ 78,00", correct: false },
+      { text: "R$ 79,00", correct: true },
+      { text: "R$ 80,00", correct: false }
     ]
   },
   {
-    question: 'Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"',
+    question: '<img src="../images/mat_quest3.png">',
     answers: [
-      { text: '<script src="xxx.js">', correct: true },
-      { text: '<script href="xxx.js">', correct: false },
-      { text: '<script name="xxx.js">', correct: false },
-      { text: "Nenhuma das alternativas", correct: false }
+      { text: "672 km", correct: true },
+      { text: "671 km", correct: false },
+      { text: "670 km", correct: false },
+      { text: "680 km", correct: false }
     ]
   },
   {
-    question: 'O arquivo JavaScript externo deve conter a tag <script>',
+    question: '<img src="../images/mat_quest4.png">',
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "2", correct: false },
+      { text: "9", correct: true },
+      { text: "8", correct: false },
+      { text: "1", correct: false }
     ]
   },
   {
-    question: 'Como escrever "Hello World" numa caixa de alerta?',
+    question: '<img src="../images/mat_quest5.png">',
     answers: [
-      { text: 'msg("Hello World");', correct: false },
-      { text: 'alert("Hello World");', correct: true },
-      { text: 'msgBox("Hello World");', correct: false },
-      { text: 'alertBox("Hello World");', correct: false }
+      { text: "3.996", correct: false },
+      { text: "1.132", correct: true },
+      { text: "1.032", correct: false },
+      { text: "2.302", correct: false }
     ]
   },
   {
-    question: 'Como podemos criar uma função no JavaScript?',
+    question: '<img src="../images/mat_quest6.png">',
     answers: [
-      { text: 'function:myFunction()', correct: false },
-      { text: 'function myFunction()', correct: true },
-      { text: 'function = myFunction()', correct: false },
-      { text: 'Nenhum desses códigos criaria uma função', correct: false }
+      { text: "156", correct: false },
+      { text: "124", correct: false },
+      { text: "114", correct: false },
+      { text: "104", correct: true }
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: '<img src="../images/mat_quest7.png">',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: "melancia", correct: false },
+      { text: "banana", correct: true },
+      { text: "laranja", correct: false },
+      { text: "abacaxi", correct: false }
     ]
   },
+  {
+    question: '<img src="../images/mat_quest8.png">',
+    answers: [
+      { text: "R$ 44,30", correct: true },
+      { text: "R$ 45,30", correct: false },
+      { text: "R$ 44,70", correct: false },
+      { text: "R$ 45,00", correct: false }
+    ]
+  },
+  {
+    question: '<img src="../images/mat_quest9.png">',
+    answers: [
+      { text: "12", correct: false },
+      { text: "10", correct: false },
+      { text: "8", correct: false },
+      { text: "6", correct: true }
+    ]
+  },
+  {
+    question: '<img src="../images/mat_quest10.png">',
+    answers: [
+      { text: "R$ 100,00", correct: false },
+      { text: "R$ 115,00", correct: false },
+      { text: "R$ 250,00", correct: false },
+      { text: "R$ 200,00", correct: true }
+    ]
+  },
+  
+  
 ]
